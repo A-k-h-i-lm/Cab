@@ -1,0 +1,136 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red75\green172\blue198;\red0\green77\blue187;\red255\green0\blue0;}
+{\*\listtable 
+{\list\listhybrid
+{\listlevel\levelnfc23\leveljc0\levelstartat1{\leveltext\'01\'B7;}{\levelnumbers;}\f1\jclisttab\tx0}
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'01.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'02.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc3\leveljc0\levelstartat1{\leveltext\'02\'03.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc2\leveljc0\levelstartat1{\leveltext\'02\'04.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc1\leveljc0\levelstartat1{\leveltext\'02\'05.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'06.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'07.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc23\leveljc1\levelstartat1{\leveltext\'01\'B7;}{\levelnumbers;}\f1\jclisttab\tx0}\listid1 }}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\ri-1016\sa200\sl276\slmult1\qc\ul\b\f0\fs36\lang9\par
+
+\pard\sa200\sl276\slmult1\qj INTRODUCTION\par
+
+\pard 
+{\pntext\f0 I.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnucrm{\pntxta.}}
+\fi-360\li720\sa200\sl276\slmult1\qj\fs32 The Purpose; \ulnone\b0 The cab booking website is a new generation digitalized way of booking cabs. This website/app should be able to satisfy the needs of both customers, as well as drivers. This website also acts as a communication place between cab owners and customers.\ul\par
+{\pntext\f0 II.\tab}\b The Targeted Audience; \ulnone\b0 This website mainly targets cab users and employees who are cab owners.\ul\par
+{\pntext\f0 III.\tab}\b Scope of the Product; \ulnone\b0 Through this website, customers can book a cab of their choice, select their pickup point, and destination and also pay money whereas the cab drivers can receive an alert and know all the details regarding the booking.\ul\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs36 USER NEEDS\b0\fs32\par
+\ulnone There are many existing Cab booking management websites/apps, but the company we are developing the app for is a growing company who are starting to digitalize its existing system. So the product to be developed should have all features in the conventional cab booking websites and should also incorporate new features like driver ratings, premium ratings, etc.\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1\qc\ul\b\fs36 SOFTWARE REQUIREMENT SPECIFICATION FOR CAB BOOKING\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1\qj\ulnone\b0\fs32 On the opening page the website should show three options:\par
+1. User-the person who tries to book the cab\par
+2. Driver-the person with a car who is willing to drive the user\par
+3. Admin-the one who has control of the product or service\par
+After selecting a particular option the website/app will take the user to the specified page.\par
+\ul USER\par
+\par
+\ulnone 1. Login/Register: user should be able to log in if already registered otherwise should be shown a message to register.\par
+
+\pard\sa200\sl276\slmult1\tab The registration page should capture the following details;\tab       \tab\ul\par
+
+\pard\sa200\sl240\slmult1\qj\ulnone\tab   \b Email: \b0 which should be unique\par
+\tab\tab   : should end with @gmail.com\par
+\tab\b Phone number\b0 : ask for the country code\par
+
+\pard\sa200\sl276\slmult1\qj\tab\tab\tab        : set the number of digits based on the code\par
+\tab\tab\tab        : should display a warning message if already \tab\tab\tab\tab          taken\par
+\tab\tab\tab         : should contain the correct number of digits\par
+\tab\b Password\b0 : should contain a minimum of 8 characters.\par
+\tab\tab        :1 special character is a must but not in beginning.\par
+\tab\tab        : should contain numbers.\par
+\b Confirm password\b0 :  Re-enter the above-entered password, and display a warning message if it does not match with the above, \b Identity proof\b0  which is a copy of valid identity proof such as aadhar or license is to be collected from the user side.\par
+2. Booking facility for logged-in users: once users are logged in they need to be able to book a cab for a specified time. This tab should include the following facilities;\par
+A location tab has to appear first in which first he should be asked to enter the pickup point and destination.\par
+Pickup point: When clicking in this tab, there has be 3 options to select a pickup point;\par
+1. Enter Pincode-here user can enter the current pin code and get a list of places with that pin code\par
+ 2. Type in location-user can enter his pickup point in words.\par
+3. Detecting location-a google map icon has to show.When clicking it the system should be able to detect his current location and show him a list.\par
+\b Time selection\b0  in which the user should be able to select the time at which he/she needs a cab, specifically asking whether it is AM or PM, a list showing the \b fare\b0  of cab service including the tax, and a \b payment gateway\b0  for users to pay the cash based on the above list. The payment page should have all modes including UPI, Credit card, Debit card, and bank transfer. After payment customer should be shown the \b expected time \b0 of arrival which will be updated by the driver from their profile. The user shall be able to \b track\b0  his cab on google maps also. It should be a live location.\par
+3. \b Cancellation\b0 : within 30min of booking user should be able to cancel his booking and a refund should be initiated. A refund initiation message should be sent to the registered mail and mobile number.\par
+4. \b Feedback\b0 : after the user has arrived at the targeted location, he should be asked about the experience and feedback of the journey, and also he can rate the driver which will update the score of the driver in his profile.\par
+
+\pard\sa200\sl276\slmult1\qj Rating page: The user shall be able to rate the cab on a scale of 1-10 and write a feedback.\par
+
+\pard\sa200\sl276\slmult1\qj When a user searches for a cab, the driver with the \cf1 highest score should be shown first in the search suggestions\par
+\cf0 5. \b Customer support\b0 : this should be available to all users in which there should be a place for a customer support contact number and an email for sending complaints and suggestions.\par
+6. \b Forget password\b0 : if users forget their password they should be able to reset the password, for which an OTP-based password reset facility has to be made.OTP should be sent to the registered mail as well as the mobile number.\par
+\ul\par
+WORKMEN/DRIVERS\par
+\ulnone 1. Register: driver should be able to log in if already registered otherwise should be shown a message to register.\par
+\tab The registration page should capture the following details;\tab       \tab\ul\par
+
+\pard\sa200\sl240\slmult1\qj\ulnone\tab\b Email: \b0 which should be unique\par
+\tab\tab : should end with @gmail.com\par
+
+\pard\sa200\sl276\slmult1\qj  \tab\b Phone number\b0 : ask for the country code\par
+\tab\tab\tab        : set the number of digits based on the code\par
+\tab\tab\tab        : should display a warning message if already \tab\tab\tab\tab          taken\par
+\tab\tab\tab         : should contain the correct number of digits\par
+\tab\b Password\b0 : should contain a minimum of 8 characters.\par
+\tab\tab        :1 special character is a must but not in beginning.\par
+\tab\tab        : should contain numbers\par
+\b Confirm password\b0 :  Re-enter the above-entered password, and display a warning message if it does not match with the above, \b Identity proof\b0  which is a copy of the license is to be collected from the driver's side along with a photo of the vehicle he is using. After this, he should be asked to fill in all details about his vehicle, in which he should be asked details like \cf2\ul which model the car is. how much seater is the cab, whether the cab is fit to be used as a taxi? and RC details of his car\cf0\ulnone .\par
+\b Account details \b0 of the driver should be asked in which he should be asked to enter all details regarding his bank account including his A/c number, IFSC, and branch. This bank account has to be verified. After this, he should be asked to accept the company's \b Terms and Conditions\b0  which should be made available to the driver if he wishes to read them.\par
+\par
+2. Login: All registered users should be able to \b log in \b0 by entering their registered mobile/email and their password. If any one of them is wrong then an \b error message \b0 has to be shown indicating that the username or password is wrong. A \b forgot password option \b0 has to be shown for drivers who type their password wrong 2 times. By clicking this he should be able to reset the password based on an OTP-based system which has to be sent to the registered email and mobile number.\par
+After successful login, the driver dashboard should include functions like the \b profile of self \b0 which will show all the details the driver had given during the registration, his \b booking history, payment history, and a point table\b0  which is prepared based on the feedback provided by the customer after his journey and on the top right corner he should be shown an option to\b  edit\b0  the information given by him.\par
+On the home page, he/she should be shown the \b pending bookings along with the time and location\b0 . \cf1 When he starts a journey he can update the same in his profile so that the user can view the same in his booking profile. Similarly, he should be able to update the time when he reached the destination.\par
+\cf3 A driver should only be made available for booking by the user only if he updates that he has finished his booking so that there is no delay, as well as every driver, gets an opportunity.\par
+\cf0\b Payment \b0 to the driver should be initiated immediately after a customer as well as the driver updates that both of them as reached the location on time. A driver grievance page also has to be shown to address all the grievances of the drivers.\par
+\par
+\ul Admin: \ulnone The person with admin power can log in here. He will have an initial login id and password provided by the development team by which he can log in. After the first login, the admin should be asked to register himself with a new mail id and password.\par
+\b Email\b0 : should be with a company domain\par
+\tab : minimum 10 characters\par
+\b Password\b0 : should contain a minimum of 8 characters\par
+\tab        :1 special character is a must but not in the beginning.\par
+\tab        : should contain numbers.\par
+A \b Confirm password \b0 option should be there where the admin has to enter the earlier entered password and should show a warning message if both of them do meet the same.\par
+Admin should be able to;\par
+
+\pard 
+{\listtext\f0\u10625?\tab}\ls1\fi-360\li720\sa200\sl276\slmult1\qj View all the bookings including the previous, current, and pending bookings.\par
+{\listtext\f0 1\tab}View the performance table of drivers which is to be sorted based on the ratings given by customers. \par
+{\listtext\f0 2\tab}allow or block a driver based on document verification.\par
+{\listtext\f0 3\tab}The admin page should include a search bar with a filter that will show the following:\par
+
+\pard 
+{\listtext\f0\u10625?\tab}\ls1\ilvl8\fi-360\li720\sa200\sl276\slmult1\qj  a separate list of premium customers ;\par
+
+\pard 
+{\pntext\f0 a.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcltr{\pntxta.}}
+\fi-360\li1080\sa200\sl276\slmult1\qj premium customers are those who are frequent users, long-distance travelers\par
+{\pntext\f0 b.\tab}the criteria for premium classification can be set by admin such as all those who have more than 50 bookings\par
+{\pntext\f0 c.\tab}This sorted data should be visible to the admin\par
+{\pntext\f0 d.\tab}All premium customers will be given special discounts of up to 15%\par
+{\pntext\f0 e.\tab}This will be changeable by the admin\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\qj Similarly, top-rated cabs also have to be shown\par
+
+\pard 
+{\pntext\f0 a.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcltr{\pntxta.}}
+\fi-360\li1440\sa200\sl276\slmult1\qj These results should be based on the ratings given by customers\par
+{\pntext\f0 b.\tab}top rated drivers should be shown first when a customer search for cabs\par
+
+\pard\sa200\sl276\slmult1\qj\par
+\ul\par
+\ulnone\par
+\cf3\ul\par
+
+\pard\sa200\sl276\slmult1\cf0\fs22\par
+}
+ 
